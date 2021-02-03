@@ -5,10 +5,10 @@ Pod::Spec.new do |spec|
   spec.version        = "0.0.1"
   spec.summary        = "Track Your location Latitude and longetud"
   spec.description    = "using push protocol to get any update in permissions when calling framework object one time, and can use Push RXPermission View to show all permission."
-  spec.homepage       = "https://gitlab.com/flakx/trackxy"
+  spec.homepage       = "https://github.com/Mohamed9195/TrackXY"
   spec.license        = "MIT"
   spec.author         = { "Mohamed Hashem" => "mohamedabdalwahab588@gmail.com" }
-  spec.source         = { :git => "https://gitlab.com/flakx/trackxy.git", :tag => "#{spec.version}" }
+  spec.source         = { :git => "https://github.com/Mohamed9195/TrackXY.git", :tag => "#{spec.version}" }
   spec.platform       = :ios, "12.0"
   spec.ios.deployment_target = "12.0"
   spec.source_files   = 'TrackXY'
