@@ -1,0 +1,6 @@
+framework module Pods_TrackXY {
+  umbrella header "Pods-TrackXY-umbrella.h"
+
+  export *
+  module * { export * }
+}

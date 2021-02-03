@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BD0C245C0F322057B47B999 /* Pods_TrackXY_TrackXYTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC983197FAB2973BD04D0CD /* Pods_TrackXY_TrackXYTests.framework */; };
 		7DB7F8DF25CB50F200A154A4 /* TrackXY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB7F8D525CB50F200A154A4 /* TrackXY.framework */; };
 		7DB7F8E425CB50F300A154A4 /* TrackXYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7F8E325CB50F300A154A4 /* TrackXYTests.swift */; };
 		7DB7F8E625CB50F300A154A4 /* TrackXY.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB7F8D825CB50F200A154A4 /* TrackXY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DB7F8FB25CB549F00A154A4 /* TrackXY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7F8FA25CB549F00A154A4 /* TrackXY.swift */; };
+		CCCC7FC5C7D3F7E19EAD485F /* Pods_TrackXY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7506112FB51D650530CD284 /* Pods_TrackXY.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		501823A1C6AF9B631720ACDD /* Pods-TrackXY-TrackXYTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackXY-TrackXYTests.release.xcconfig"; path = "Target Support Files/Pods-TrackXY-TrackXYTests/Pods-TrackXY-TrackXYTests.release.xcconfig"; sourceTree = "<group>"; };
 		7DB7F8D525CB50F200A154A4 /* TrackXY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrackXY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB7F8D825CB50F200A154A4 /* TrackXY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackXY.h; sourceTree = "<group>"; };
 		7DB7F8D925CB50F200A154A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DB7F8DE25CB50F200A154A4 /* TrackXYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackXYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB7F8E325CB50F300A154A4 /* TrackXYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackXYTests.swift; sourceTree = "<group>"; };
 		7DB7F8E525CB50F300A154A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB7F8FA25CB549F00A154A4 /* TrackXY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackXY.swift; path = ../../../studyProject/MyFrameWotk/testtttt/Pods/testFramworkXY/testFramworkXY/TrackXY.swift; sourceTree = "<group>"; };
+		889D1BE55E4DD49F80D8B197 /* Pods-TrackXY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackXY.debug.xcconfig"; path = "Target Support Files/Pods-TrackXY/Pods-TrackXY.debug.xcconfig"; sourceTree = "<group>"; };
+		A86E9DC23C1D34A41EE228AC /* Pods-TrackXY-TrackXYTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackXY-TrackXYTests.debug.xcconfig"; path = "Target Support Files/Pods-TrackXY-TrackXYTests/Pods-TrackXY-TrackXYTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC983197FAB2973BD04D0CD /* Pods_TrackXY_TrackXYTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackXY_TrackXYTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7506112FB51D650530CD284 /* Pods_TrackXY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackXY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE5B9CCC46FBF4272D0BB61 /* Pods-TrackXY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackXY.release.xcconfig"; path = "Target Support Files/Pods-TrackXY/Pods-TrackXY.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCC7FC5C7D3F7E19EAD485F /* Pods_TrackXY.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +55,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DB7F8DF25CB50F200A154A4 /* TrackXY.framework in Frameworks */,
+				0BD0C245C0F322057B47B999 /* Pods_TrackXY_TrackXYTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EB174806CF31653AB882B28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				889D1BE55E4DD49F80D8B197 /* Pods-TrackXY.debug.xcconfig */,
+				DEE5B9CCC46FBF4272D0BB61 /* Pods-TrackXY.release.xcconfig */,
+				A86E9DC23C1D34A41EE228AC /* Pods-TrackXY-TrackXYTests.debug.xcconfig */,
+				501823A1C6AF9B631720ACDD /* Pods-TrackXY-TrackXYTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C41A57ED3ACA96A63F75895 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7506112FB51D650530CD284 /* Pods_TrackXY.framework */,
+				BEC983197FAB2973BD04D0CD /* Pods_TrackXY_TrackXYTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB7F8CB25CB50F200A154A4 = {
 			isa = PBXGroup;
 			children = (
 				7DB7F8D725CB50F200A154A4 /* TrackXY */,
 				7DB7F8E225CB50F200A154A4 /* TrackXYTests */,
 				7DB7F8D625CB50F200A154A4 /* Products */,
+				4EB174806CF31653AB882B28 /* Pods */,
+				5C41A57ED3ACA96A63F75895 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +107,7 @@
 			children = (
 				7DB7F8D825CB50F200A154A4 /* TrackXY.h */,
 				7DB7F8D925CB50F200A154A4 /* Info.plist */,
+				7DB7F8FA25CB549F00A154A4 /* TrackXY.swift */,
 			);
 			path = TrackXY;
 			sourceTree = "<group>";
@@ -104,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DB7F8E925CB50F300A154A4 /* Build configuration list for PBXNativeTarget "TrackXY" */;
 			buildPhases = (
+				AAE78296AB61514841992E82 /* [CP] Check Pods Manifest.lock */,
 				7DB7F8D025CB50F200A154A4 /* Headers */,
 				7DB7F8D125CB50F200A154A4 /* Sources */,
 				7DB7F8D225CB50F200A154A4 /* Frameworks */,
@@ -122,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DB7F8EC25CB50F300A154A4 /* Build configuration list for PBXNativeTarget "TrackXYTests" */;
 			buildPhases = (
+				F709FC4E2367AB84115AA96A /* [CP] Check Pods Manifest.lock */,
 				7DB7F8DA25CB50F200A154A4 /* Sources */,
 				7DB7F8DB25CB50F200A154A4 /* Frameworks */,
 				7DB7F8DC25CB50F200A154A4 /* Resources */,
+				BC809194C3CFD6CDAA0F9572 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +185,7 @@
 				TargetAttributes = {
 					7DB7F8D425CB50F200A154A4 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					7DB7F8DD25CB50F200A154A4 = {
 						CreatedOnToolsVersion = 12.2;
@@ -189,11 +228,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAE78296AB61514841992E82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackXY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC809194C3CFD6CDAA0F9572 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackXY-TrackXYTests/Pods-TrackXY-TrackXYTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackXY-TrackXYTests/Pods-TrackXY-TrackXYTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrackXY-TrackXYTests/Pods-TrackXY-TrackXYTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F709FC4E2367AB84115AA96A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackXY-TrackXYTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DB7F8D125CB50F200A154A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB7F8FB25CB549F00A154A4 /* TrackXY.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +444,9 @@
 		};
 		7DB7F8EA25CB50F300A154A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889D1BE55E4DD49F80D8B197 /* Pods-TrackXY.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BN2D9VKA46;
@@ -357,6 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MH.TrackXY;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,7 +471,9 @@
 		};
 		7DB7F8EB25CB50F300A154A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE5B9CCC46FBF4272D0BB61 /* Pods-TrackXY.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BN2D9VKA46;
@@ -388,7 +497,9 @@
 		};
 		7DB7F8ED25CB50F300A154A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86E9DC23C1D34A41EE228AC /* Pods-TrackXY-TrackXYTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BN2D9VKA46;
 				INFOPLIST_FILE = TrackXYTests/Info.plist;
@@ -406,7 +517,9 @@
 		};
 		7DB7F8EE25CB50F300A154A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 501823A1C6AF9B631720ACDD /* Pods-TrackXY-TrackXYTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BN2D9VKA46;
 				INFOPLIST_FILE = TrackXYTests/Info.plist;
